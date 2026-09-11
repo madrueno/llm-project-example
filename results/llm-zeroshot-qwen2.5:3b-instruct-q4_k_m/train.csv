@@ -1,0 +1,503 @@
+model,text,y_true,y_pred
+qwen2.5:3b-instruct-q4_K_M,There is a duplicate payment on my card. Why?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I could not transfer to a beneficiary,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,Whats the reason for my payment being declined? It looked like everything went through ok and my account was good.,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,What steps do I need to take to exchange currencies?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,Can you tell me about the exchange fee?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,Why do I have two charges It should only be one charge?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I have a card payment that has been pending for some time and would like to know when it is going to go through.,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,where can i located the auto top up function?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,I used my card to top up but it's saying it is still pending. What does this mean?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Why is there an extra charge on my statement.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,will you be able to activate my card,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,I'm having trouble proving my identity,Account,Account
+qwen2.5:3b-instruct-q4_K_M,I used an ATM and wanted to know why I was charged an extra fee.,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,Everytime I try to prove my identity it won't let me.,Account,Account
+qwen2.5:3b-instruct-q4_K_M,How long does it take for a transfer to reach my account?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,Can I use google pay to top up?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,"Looks like my card payment was duplicated after all. I went to pay at the store earlier, got declined once,second time it works. App still stays pending for one of the payments. Can you please remove one of them as it's wrong and was declined?",Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,There is a vendor name I don't recognize on a payment from my account. I don't think I made this payment.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,How do I go about ordering another card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,My money I had was gone and I could not get gas!,Topups,Payments
+qwen2.5:3b-instruct-q4_K_M,"I double checked that I have the correct account details already, they're right for sure. Transfer is still pending since forever. It should not have been done so.",Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,I am interested in a Visa or Mastercard. Do you offer them?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"Please, tell me why I can't have the funds I deposited a week ago? I need the money now.",Topups,Disputes
+qwen2.5:3b-instruct-q4_K_M,I managed to drunken block my card :(( Help!,Account,Cards
+qwen2.5:3b-instruct-q4_K_M,How long will it be  before the person I sent money to is able to see it?,Transfers,Payments
+qwen2.5:3b-instruct-q4_K_M,Am I able to get this shipped to China?,Cards,Payments
+qwen2.5:3b-instruct-q4_K_M,There was an extra fee when I paid with the card.,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,I keep checking my statements but nothing shows up.I requested a refund a long time ago but seems like it's not submitting my account for some reason. Can you please help me get the money back from the seller for me,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,Why am I being charged a hidden fee?,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,I received the wrong amount of cash.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"I got this stupid fee after taking cash out, why?",Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,An ATM swallowed my credit card!,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,What happens if a merchant doesn't accept  you payment?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I used my card and there was a fee,Payments,Cards
+qwen2.5:3b-instruct-q4_K_M,How would I be able to make changes to my personal details?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,My card is stolen.  Help!,Account,Cards
+qwen2.5:3b-instruct-q4_K_M,What do I do if my phone is stolen?,Account,Disputes
+qwen2.5:3b-instruct-q4_K_M,"I usually don't get charged for transfers, why was I this month?",Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,How do I deposit cash?,Topups,Payments
+qwen2.5:3b-instruct-q4_K_M,Is there a way to get a virtual card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,I tried to transfer some money and it hasn't done it yet - what's going on?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,I can't get the top-up to work! What's going on here.,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,i have yet to get my pin,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,I made a transaction at an atm and was charged extra for it.,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,I am still currently waiting for the cash that has been deposited into the account this morning.,Topups,Account
+qwen2.5:3b-instruct-q4_K_M,How do I find the code needed in order to verify my top-up card?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,is apple pay a top up service?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,The money that I have transferred hasn't arrived yet.,Topups,Disputes
+qwen2.5:3b-instruct-q4_K_M,do i need to wait to get my card before getting a pin,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"If my top-up didn't transfer, what went wrong?",Topups,Transfers
+qwen2.5:3b-instruct-q4_K_M,"I have received my statement but I do not see my refund, why is that?",Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,What is this strange payment in my account?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,Where can I get your exchange rates from?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,I would like to know where the funds are at.,Account,Account
+qwen2.5:3b-instruct-q4_K_M,"This company is bad, delete my account now.",Account,Account
+qwen2.5:3b-instruct-q4_K_M,Is there a money transfer fee?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,How do I report a cash withdrawal that wasn't me?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,My account shows a direct debit charge that I have never seen before,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,when will the balance on my account change form a transfer,Topups,Transfers
+qwen2.5:3b-instruct-q4_K_M,I need to check status as my friend hasn't got money I sent.,Transfers,Disputes
+qwen2.5:3b-instruct-q4_K_M,When will my card be here?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,How do I top up on my card?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Is there an age limit for opening an account?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,Duplicate transactions appear on my account,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,Can I use my account although the identity verification has not been accepted yet?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,I was made to pay an additional pound!,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,when will my transfer arrive,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,I think someone stole money from my card,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I think I forgot my passcode,Account,Account
+qwen2.5:3b-instruct-q4_K_M,I want to get my hands on one of those virtual cards!,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Is there a charge for sending out more cards?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Got only $20 when I tried to withdraw $100.,Disputes,Payments
+qwen2.5:3b-instruct-q4_K_M,My disposable virtual card won't work.,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,how do i find top up for cash deposit,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Why hasn't my ID been verified?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,Can I use an auto top-up option?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,There is a payment that i made that i noticed has not gone thru yet. Can i ask why?,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,Are there limits to businesses that will accept this card?,Payments,Cards
+qwen2.5:3b-instruct-q4_K_M,Do I have to go to an actual bank to change my PIN?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,I'm suddenly getting an error while attempting a transfer that it isn't possible. Why? I've done it before.,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,Why can't the recepient of my money transaction see it?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,What is identity check?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,What is the limit on disposable cards?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,The rate applied to my foreign currency at an ATM was incorrect.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"I'm waiting for a money transfer to show, still.",Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,I messed up and made a transaction using the wrong account.,Transfers,Disputes
+qwen2.5:3b-instruct-q4_K_M,I have just read my statement and there is a payment I don't recognise.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,Can you tell me what cards and currencies you support?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,How much longer is it going to take to get my new card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"I want to do a bank transfer to this bank, from an account at another bank.",Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,What type of fiat currencies do you support?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,"I want to reactivate my card, I thought I had lost it but found it again in my jacket this morning.",Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"I have an issue. I bought something within the past one to two weeks and have received one of the products; however, today the total was returned to my account. What's going on here?",Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,What is the cost for physical cards?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,totally unacceptable.  I'm stranded with no cash because the ATM wouldn't give me any money!,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,"Someone is using my card to purchase flights to New York it's not me because I'm not going to New York, please can you cancel the card and refund the money?",Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"My phone was stolen, help!",Account,Disputes
+qwen2.5:3b-instruct-q4_K_M,"I no longer have my phone with the app, what should I do?",Account,Cards
+qwen2.5:3b-instruct-q4_K_M,What do I do if my card is stolen?,Account,Cards
+qwen2.5:3b-instruct-q4_K_M,"top up google pay, is it possible?",Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Please specify any limitations that come along with disposable cards.,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,I have a trip coming up and want to add money automatically.,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,My package is taking too long to arrive and I don't want it anymore. Can I get a refund?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I just sent money but the person I sent it to doesn't see it. What happened?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,I deposited a cheque and its been days and I still haven't received the cash!!,Topups,Disputes
+qwen2.5:3b-instruct-q4_K_M,The machine only paid me a hundred when I wanted 20,Disputes,Payments
+qwen2.5:3b-instruct-q4_K_M,I used my card to top-up but the money is gone!,Topups,Disputes
+qwen2.5:3b-instruct-q4_K_M,I made a transfer from my UK account a couple of hours ago.  Could you please make sure everything went alright.,Topups,Transfers
+qwen2.5:3b-instruct-q4_K_M,I got some cash in the ATM but its still pending,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,I would like to use one of my cards for a family member. Is that allowed?,Cards,Transfers
+qwen2.5:3b-instruct-q4_K_M,can I use it all over the world?,Account,Cards
+qwen2.5:3b-instruct-q4_K_M,ATM withdrawal not working.,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,Why does it show that my transfer is still pending?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,"Hi, status of one of my card payment is still pending from a while. Please let e know how much time it will take to complete.",Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,There should be a cash withdrawal that I haven't seen yet.,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,how do I find the code to verify the top up card?,Topups,Cards
+qwen2.5:3b-instruct-q4_K_M,how many transactions can go on a disposable card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Explain the extra ATM fees.,Payments,Cards
+qwen2.5:3b-instruct-q4_K_M,Can you tell me what I need to do for the identity check process?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,I need info on activating my card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,How long will my cash withdrawal take,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,What should I do since my card is trapped in the ATM?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Is there a limit for top ups?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,"So, I am in the middle of purchasing a flat. I need the money for the first mortgage payment and it is not going through. I keep receiving an error. Can you find out what's going on and help me complete this transfer?",Transfers,Disputes
+qwen2.5:3b-instruct-q4_K_M,Why is my cash withdrawal pending?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,What do I do if I have been charged twice?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I think someone stole my card number and brought stuff in different places that I have never been to. I need to suspend any further purchase on my credit card.,Account,Disputes
+qwen2.5:3b-instruct-q4_K_M,Why do transfers get declined?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,I used foreign currency to buy something and I think the rate applied is incorrect.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"Hello, I tried to take some cash out of the ATM but I looked at my statement and it still shows that it's pending. Is the machine broken? Will I receive my money back or will I be charged for this?",Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,Do you accept cheques for top ups?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,When will my top up be approved?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,The wrong exchange rate was used when I purchased an item.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"I thought I knew my password but I guess I was wrong, what can I do now?",Account,Account
+qwen2.5:3b-instruct-q4_K_M,Please can i get a disposable virtual card as well?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Can I add money in intervals to my account?  I will be traveling.,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,How can I unblock my PIN?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,What are the steps for the identity checks?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,I'd prefer to use my American Express when putting funds into my account.,Cards,Topups
+qwen2.5:3b-instruct-q4_K_M,I didn't make these transactions. Is someone else using my card?,Account,Disputes
+qwen2.5:3b-instruct-q4_K_M,Its been several days and my cash withdrawal is still pending. Why?,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,When I exchanged currencies the value of my money changed.,Disputes,Payments
+qwen2.5:3b-instruct-q4_K_M,My transfer is failing when I try to do it.,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,Is there a reason I was charged an extra fee for using the ATM?,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,There is a payment made with my card that I don't recognize at all.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,Am I going to be charged for receiving  money?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,I want to set up an auto top-up,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,I am angry that I got charged for using my card.,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,Do you support other currencies?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,I have a payment which has not been approved.,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,I didn't make this payment and it's on my app,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I need help fixing my contactless. It's not working anywhere I go today.,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Can I use my social security card as a form of identity?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,The exchange rate applied was incorrect when I was traveling outside the country.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,What are the steps that I need to take to activate a new card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,I paid with my card and was charged extra,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,"How long does the ""pending"" period of a transfer take?",Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,I tried doing an in country transfer earlier this week. I thought it would be there by now but I still don't see the money. Can you check the status on my transfer?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,i tried to do a transfer to an account but it didn't work,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,Where can I find a Mastercard ATM?,Payments,Cards
+qwen2.5:3b-instruct-q4_K_M,"My card was used without my permission, what do I do?",Account,Disputes
+qwen2.5:3b-instruct-q4_K_M,How does your app transfer the money,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,I wish to use my American Express to put funds into my account.,Cards,Topups
+qwen2.5:3b-instruct-q4_K_M,Do you accept US credit cards?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,can i go into my app to find my pin,Cards,Account
+qwen2.5:3b-instruct-q4_K_M,"Um, my top up didn't work",Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,I was trying to purchase some crypto and the app won't allow me to do it. What's the deal with this? I really wanted to complete the exchange.,Transfers,Payments
+qwen2.5:3b-instruct-q4_K_M,Can this app be used to exchange currencies?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,My card payment was cancelled it seems.,Disputes,Payments
+qwen2.5:3b-instruct-q4_K_M,When will I get a virtual card? I haven't gotten one yet,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"Why do you keep declining my transfers? it's always been working really well so far but when I tried to buy something just now the card got declined, I tried couple of times already  but same thing is happening.",Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,I sent money to someone but they haven't gotten it yet,Transfers,Payments
+qwen2.5:3b-instruct-q4_K_M,If I top-up by using a trasfer are there charges that applied?,Topups,Transfers
+qwen2.5:3b-instruct-q4_K_M,Where do I find my PIN for my new card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Can I use American express with apple pay? Why does it make my top up not work?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Who do I talk to about the ATM swallowing my card?,Cards,Disputes
+qwen2.5:3b-instruct-q4_K_M,Is there any way to cancel my transfer,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,I just did a money transaction but its not showing they received it,Transfers,Payments
+qwen2.5:3b-instruct-q4_K_M,It won't let me prove my identity.,Account,Account
+qwen2.5:3b-instruct-q4_K_M,Where do I scan my card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Where can I find the auto-top up feature?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Do I get any sort of discount on volume for a lot fo currency exchanges?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,"It seems you keep declining my transfers. Before, it's always worked very well.Just now when I tried to buy something the card was declined. I tried more than once and it was the same thing each time.",Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,"There was money taken out of my account, and I'm pretty sure I didn't do it.",Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,Are there ATM fees?,Payments,Account
+qwen2.5:3b-instruct-q4_K_M,"I have been doing some online shopping, but when checking out, it keeps getting declined. I tried a few times and it wouldn't work. What could be wrong?",Transfers,Disputes
+qwen2.5:3b-instruct-q4_K_M,There's a direct debit payment that I don't recognize.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,Can I change my pin at a cash machine?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,I don't need to transfer anymore and I want to cancel it.,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,how do i find out about transfers,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,I want to top up by cheque,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Please delete my account now.,Account,Account
+qwen2.5:3b-instruct-q4_K_M,"Hi, I tried to top up my card today and it did not work. I have tried it in the past and it worked just fine but it won't do it anymore. Can you help me out?",Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,What are the auto-top up policies?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Dude I put money in the ATM last week but it ain't there! I need the money now figure this out!,Topups,Disputes
+qwen2.5:3b-instruct-q4_K_M,I don't understand why you aren't accepting my transfer. After a couple times trying I'm still getting an error message.,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,Do you have an age requirement when opening an account with your service?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,What form of identification is accepted?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,Help! I lost my card!,Account,Cards
+qwen2.5:3b-instruct-q4_K_M,Why did they take more money out then I withdrawed?,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,Do I need to verify my top-up?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Can I use top-up with Apple pay?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,I happened to forget my password,Account,Account
+qwen2.5:3b-instruct-q4_K_M,My pin isn't here yet,Cards,Account
+qwen2.5:3b-instruct-q4_K_M,Cash withdrawal was incorrect at ATM.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,What's the transfer time from Europe?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,Can I use google pay for topping -up,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Tell me why my transfer is pending.,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,Where can I use my Mastercard?,Payments,Cards
+qwen2.5:3b-instruct-q4_K_M,My card payment won't work.,Payments,Cards
+qwen2.5:3b-instruct-q4_K_M,How to I switch my money for the money used in another country?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,I want my purchases cancelled.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,What should I expect to be charged on a SEPA transfer?,Topups,Payments
+qwen2.5:3b-instruct-q4_K_M,Will there be a charge for exchanging foreign currency?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,I'm not sure what I need to verify my identity.,Account,Account
+qwen2.5:3b-instruct-q4_K_M,How much would an extra card cost?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,I need to change a transfer.,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,Is there a way I can get my card expedited?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,how much for a physical card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"If I lost my phone at the hotel, can I still use the app?",Account,Cards
+qwen2.5:3b-instruct-q4_K_M,Why did my payment not go through why did it cancel?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I am so angry right now!  I went to the ATM and did not get the correct amount of money I chose to withdraw.  How could this happen?  I need my money and want to know how I can get it ASAP!,Disputes,Payments
+qwen2.5:3b-instruct-q4_K_M,"Hi, i just topped up my phone and the money was deducted but it seems to have deducted the same amount again! please help!",Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,How many transactions can I make on my disposable card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"My PIN is unlocked, what do I do?",Account,Cards
+qwen2.5:3b-instruct-q4_K_M,How do I get a refund for an unauthorized direct debit payment?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,My identity can't be verified for some reason,Account,Account
+qwen2.5:3b-instruct-q4_K_M,is there a way to see where funds come from,Account,Payments
+qwen2.5:3b-instruct-q4_K_M,I think the exchange rate for the cash I withdrew was wrong.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I exchanged Russian rubles for British pounds today and got less than I expected. Was exchange rate correct?,Disputes,Payments
+qwen2.5:3b-instruct-q4_K_M,How much money can I withdraw before fees? I noticed a fee on my card but I didn't think I had hit the limit of how much I could withdraw in a month.,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,How quickly can you get me my card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,My card expires next week. How do I get a new one?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Can you lookup my password?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,Can my 8 year old grandson open an account at the bank?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,"For some reason, the money I added was returned.",Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,"When I got cash, my exchange rate was off.",Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,How can you assist on verifying my identity?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,why do I have to show my ID,Account,Cards
+qwen2.5:3b-instruct-q4_K_M,You promised no fees but now I've got one. What the hell!?,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,I attempted to top up my account but it's been frozen in a pending state for well over an hour now! Is this normal? I'm a new customer and this is my first time doing this. I assumed it would be done quicker than this.,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,My payment did not go through because the app reverted it,Disputes,Payments
+qwen2.5:3b-instruct-q4_K_M,Is it free to transfer money or is there a fee?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,"My refund has not arrived, and I am unsure why. Who do I contact?",Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,Why would my payment still show as pending?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,How do I auto top-up?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,How can I check how much free spending I have left? I have some big purchases coming up and want to know where I can look for any info.,Payments,Account
+qwen2.5:3b-instruct-q4_K_M,Is there a limit to auto top?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,I haven't received my virtual card.,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Is the top-up amount unlimited?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,"I have obtained the salary in GBP, will it need to be configured?",Transfers,Payments
+qwen2.5:3b-instruct-q4_K_M,Can I track my card while it is in the process of delivery?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Where can I edit personal details?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,"There are a couple payments with my card shown in the app that i really didn't make myself. What's going on with this, does someone has access to my card?!",Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,How old do my kids need to be to open an account?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,Why are all my card payments being declined?,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,My cheque is taking a while,Topups,Payments
+qwen2.5:3b-instruct-q4_K_M,Why wasn't my bank balance updated?,Topups,Account
+qwen2.5:3b-instruct-q4_K_M,WHAT IS THE SOLUTION OF THIS PROBLEM,Cards,Disputes
+qwen2.5:3b-instruct-q4_K_M,How do you determine the exchange rate?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,How can I change to my married name?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,"While transferring money, its getting error out as my transfer is not possible. Please help me in this as earlier i was able to do it successfully.",Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,My wallet doesn't show my recent top up.,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Need a new passcode.,Account,Account
+qwen2.5:3b-instruct-q4_K_M,What will I need to configure if my salary is in GBP?,Transfers,Payments
+qwen2.5:3b-instruct-q4_K_M,When I topped up the app reverted it.,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,I have one other credit card from the US. Do you take it?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"Please help! I was looking at my account and saw a transaction with a seller I don't remember. Is it possible for you to track the sale, because I really don't think I made a payment to them.",Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"Hi, My card is getting declined continuously when i am trying to top-up. Request you to look into this issue or tell me any other alternatives.",Topups,Cards
+qwen2.5:3b-instruct-q4_K_M,"I am wanting to refill my card, is there a charge?",Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,How long does it take for money to reach my account?,Topups,Payments
+qwen2.5:3b-instruct-q4_K_M,Is there a limit to the number of disposable cards per day?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,How come the money from the merchant appeared back into my account?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"My transfer is quite urgent, and finally worked out, but I've been waiting for it for quite some time. Can you tell me how long to expect to wait for it?",Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,In which countries can I get a card?,Account,Cards
+qwen2.5:3b-instruct-q4_K_M,I am having trouble activating my card.,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"how many virtual cards can i have, i want 8",Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Someone took my card without my permission.,Account,Disputes
+qwen2.5:3b-instruct-q4_K_M,How long do transfers take to show up in my account?,Topups,Transfers
+qwen2.5:3b-instruct-q4_K_M,How do I reset my passcode?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,Is my card payment reverted?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I need to know what charges I will incur for using a European card for top up.,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,My card activation attempt failed.,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"Hi,  One of payment is still coming as pending for which i have already paid by card. I guess it did not processed, could you please check and update me.",Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,I'll send a check to top up my account,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Why hasn't the transaction I did to my friend arrived yet?,Transfers,Payments
+qwen2.5:3b-instruct-q4_K_M,Which merchants accept my card?,Payments,Cards
+qwen2.5:3b-instruct-q4_K_M,What currencies do you accept to add money?,Cards,Topups
+qwen2.5:3b-instruct-q4_K_M,HOW LONG TO TAKE THE TIME TO SOLVE,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,What can I do if my card details where stolen from my car? I think they used my card to buy gas.,Account,Disputes
+qwen2.5:3b-instruct-q4_K_M,hello I have lost my phone and I'm worried someone's going to steal money from me,Account,Cards
+qwen2.5:3b-instruct-q4_K_M,My card got charged twice for the same thing!,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"I just tried to top-up and now I'm getting an additional verification message, why?",Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Can you tell me why a cheque deposit isn't showing in my balance?,Topups,Disputes
+qwen2.5:3b-instruct-q4_K_M,"My top up keeps showing pending?  How long will things be like this?  Days, weeks, months?  I need the money quite urgently for an important coffee purchase, can you please let me know when top up will work?",Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Is there an age limit to when my child can use these services?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,How can I the person see my money transaction?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,"Hello,  In my most recent ATM transaction, I didn't receive nearly as much cash as I thought I would - what is your exchange rate policy?",Disputes,Payments
+qwen2.5:3b-instruct-q4_K_M,I should not have been charged a fee for my transfer.,Transfers,Disputes
+qwen2.5:3b-instruct-q4_K_M,I made a purchase with my card and I was charged a fee for using it,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,Why does it say my transfer failed?,Transfers,Disputes
+qwen2.5:3b-instruct-q4_K_M,How do I find out what countries you service and what countries you do not?,Account,Cards
+qwen2.5:3b-instruct-q4_K_M,My credit card has been declined.,Payments,Cards
+qwen2.5:3b-instruct-q4_K_M,"My top-up does not seem to have worked, what  went wrong?",Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Can I get some help activating my new card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Why was the exchange rate so wrong when I bought something!,Disputes,Payments
+qwen2.5:3b-instruct-q4_K_M,How long will it take for me to get my card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Why is my last cheque deposit taking so long?,Topups,Transfers
+qwen2.5:3b-instruct-q4_K_M,Are cards issued to people living in the US?,Account,Cards
+qwen2.5:3b-instruct-q4_K_M,"I've just made a money transfer to the wrong account, I need to stop the money from being moved as it may be going to someone I don't know.  Please can you help?",Transfers,Disputes
+qwen2.5:3b-instruct-q4_K_M,I'm getting concerned here.  I sent a friend some money and she isn't seeing it.  What's going on?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,How do I add my new card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,I have a direct debit that I did not set up,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,One of my card payments has reverted,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"I need to exchange my GBP to AUD, how would I do this?",Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,I was charged an extra pound for no reason. Why is that?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I am under the impression that my top up is still pending,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,What can you use the disposable cards for?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,I misplaced my phone so I can't use the app! Does this mean I can't use my card?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,what cards and currencies are accepted?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"The transfer keeps failing , I tried to transfer some money to friends this morning but it keeps getting rejected for some reason, Would you please check the issue?",Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,I have a reverted top up I made and wanted to know why it didn't go through.,Topups,Disputes
+qwen2.5:3b-instruct-q4_K_M,"Someone has a copy of my card !! I definitely still have it here but someone just made a 500£ cash withdrawal, HELP!",Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"Do you charge for cash withdrawals?  I want to get my hands on my own money and you appear to be charging me for the pleasure! Why is this, you'd never get this with my high street bank!",Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,What kind of charges should I expect to exchange currencies?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,How long does transfer from the US take?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,Why is it I am charged an extra fee when I use the ATM?,Payments,Transfers
+qwen2.5:3b-instruct-q4_K_M,I have have multiple charges for one transaction.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I have transactions that I don't recognize - I think someone is using my card.,Account,Disputes
+qwen2.5:3b-instruct-q4_K_M,I have a transaction that shows multiple times.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,What needs to be provided for identity verification?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,I got some cash but it wasn't the right amount.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,Is there a charge for cash withdrawals? I always thought it was free.,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,Please help!  There was an extra fee when I got cash.,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,What do I do to lock my phone after losing it so my account isn't accessed,Account,Account
+qwen2.5:3b-instruct-q4_K_M,Are there any express fees if i want my new card faster?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,why wasn't a transfer to account approved,Transfers,Disputes
+qwen2.5:3b-instruct-q4_K_M,There is a cash withdrawl I don't remember.,Disputes,Payments
+qwen2.5:3b-instruct-q4_K_M,What is this extra pound charge for?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I don't know how to verify my identity.,Account,Account
+qwen2.5:3b-instruct-q4_K_M,How can I edit my personal details in the app?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,Explain the activation method for this card,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,What kind of fiat currencies are supported for holding and exchange?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,When will I receive a transfer from europe?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,I can't see my refund in my history.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,Why hasn't the transaction I did arrive yet?,Transfers,Payments
+qwen2.5:3b-instruct-q4_K_M,I want to replace my current PIN.,Account,Account
+qwen2.5:3b-instruct-q4_K_M,What do I need to see my source of money?,Account,Transfers
+qwen2.5:3b-instruct-q4_K_M,I was supposed to get a refund but I do not see it on my statement. When is it going to be updated?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"Everything seems fine with my account, so why did it decline my payment?",Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,I haven't received my card.,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Please help me figure out the reason for the odd withdrawal amount from my account?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,how do i avoid charges in the future,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,"My card is stuck inside the ATM, what am I supposed to do?",Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Please tell me if I'm going to be charged for sending out more cards?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"I have lost my card, but need to place an online order! How do I get a virtual card instantly?",Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Do you allow exchanges of EUR?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,Is there a tracking number for the card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,what currencies do you accept?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,"I don't want to buy this car anymore, can I cancel the transaction and get a quick refund back?",Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,Exchange rate on a purchase was incorrect,Disputes,Payments
+qwen2.5:3b-instruct-q4_K_M,I am planning activating my card was it possible?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,I sees some suspicious spending on my credit card that I don't recall I had made. What should I do?,Account,Disputes
+qwen2.5:3b-instruct-q4_K_M,I was charged twice for an in-store purchase that I thought was declined.  My App says that it's still pending for one of the payments. Please make sure one of the charges is removed.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I transferred some cash and it has not arrived yet.,Transfers,Disputes
+qwen2.5:3b-instruct-q4_K_M,How long will an urgent transfer from China take?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,There is a payment on my card that I do not recognize.  I've never seen the name on the transaction before.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,What are the disposable cards used for?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,What will happen after my card expires?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,When will my money be in my account?,Transfers,Payments
+qwen2.5:3b-instruct-q4_K_M,Is my card actually working? It's the first time I tried using it,Payments,Cards
+qwen2.5:3b-instruct-q4_K_M,I can't recognise this Direct Debit payment.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I am unable to use my top-up on the app. Could you explain this to me?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Why has my card been charged an extra pound?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"I still haven't received my card after two weeks, is it lost?",Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,I don't recognize this payment at all!  Help!,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"help, I see money missing I didn't take out.",Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,How long will the $1 charge show as pending?,Disputes,Payments
+qwen2.5:3b-instruct-q4_K_M,"I normally have no issues making transfers, so why am I suddenly being told it is not possible?",Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,What kind of ATMs would this card be accepted at?,Payments,Cards
+qwen2.5:3b-instruct-q4_K_M,Why did I get charged extra?,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,When I received my cash; they had my exchange rate incorrect.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,How much does top up fees cost?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Why was there an extra charge when I transferred money?,Transfers,Disputes
+qwen2.5:3b-instruct-q4_K_M,I got cash and the exchange rate should have been different than it ended up being.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I was checking my account when I saw a $500 cash withdraw that I know I didn't do.  I have my card so I don't understand how this happened.  Please help me.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"For you, how long do transfers normally take from a UK account? I completed one just now but nothing appears. I just need to be sure everything is okay.",Topups,Transfers
+qwen2.5:3b-instruct-q4_K_M,Please help me find my top-up verification code,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Where do I get a disposable card,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,What are the steps for  making a transfer for topping up?,Transfers,Topups
+qwen2.5:3b-instruct-q4_K_M,I am required to make several disposable cards every day.,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"On my last trip, I received the incorrect exchange rate.",Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,Please check my payment from last Saturday as I feel I have been overcharged on the exchange rate.  Thank you.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I made a check deposit but the cash hasn't arrived in my account yet.,Topups,Transfers
+qwen2.5:3b-instruct-q4_K_M,I need to close my account as soon as possible.,Account,Account
+qwen2.5:3b-instruct-q4_K_M,A duplicated payment was made for something.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I think there has been a mistake with my transfer,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,I found my old card. Can I link it back into the app?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Can you show me how to top up with Google play?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Help.  My card is broken.,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,How long do I have to wait until the transferred money shows up?,Topups,Transfers
+qwen2.5:3b-instruct-q4_K_M,I would like to order a virtual card.,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,how long will my cash withdrawal be pending for?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,My account shows I made a debit payment to someone that I can't recall and would like to find out who the payment was made to.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I need several cards per day. And I need to be able to throw away all of the cards I make.,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Can topping up be automatic?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,"I tried to take out some money from an ATM earlier today and it was declined. Looking on my screen now, I still see that it's pending for that amount. I didn't actually get that money, so I don't want it processed on my account.",Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,How do I complete the ID check?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,The exchange rate you are using is really bad. This can't possibly be the official interbank exchange rate.,Disputes,Payments
+qwen2.5:3b-instruct-q4_K_M,Why do some of my payments have fees?  I don't understand.,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,"I didn't think my country-to-country money transfer would take so long. It still says that it's pending so I re-checked all of the account information--everything seems right, so what's the deal?",Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,I can't find my phone; what can I do to prevent someone from accessing my account on it?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,Will I receive all the money sent to my account by SEPA transfer?,Topups,Payments
+qwen2.5:3b-instruct-q4_K_M,What is the max amount of top-ups?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,What payment methods are used to top up?,Cards,Topups
+qwen2.5:3b-instruct-q4_K_M,Can I use SWIFT transfers?,Topups,Transfers
+qwen2.5:3b-instruct-q4_K_M,I notice that I have a card payment that's been cancelled.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,It's been a week since I ordered my card and it's not here. Please help?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"Can you let me know where my refund money is? I requested a refund a few days back, but it's not showing up yet.  Do you guys have the money yet? Maybe it's just not in my account.  Let me know when it will become available, please.",Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"Hi, I want to inquire about my balance. Some cash was deposited and it hasn't updated yet.",Topups,Account
+qwen2.5:3b-instruct-q4_K_M,"Hi, I lost my phone yesterday, what can I do to stop someone using my account on it?",Account,Account
+qwen2.5:3b-instruct-q4_K_M,"Hello, I have a pending transaction in my account due to an ATM machine that wasn't working. In any case if the transaction goes through, after how long can I get my money back?",Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,How long do I have to wait for the transfer to be finalized?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,"I'd lke my card reactivated, I was thinking it was misplaced but I discovered when I woke up that I had left it in my coat.",Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,When will the money show in my account?,Transfers,Payments
+qwen2.5:3b-instruct-q4_K_M,Why hasn't my cash been deposited yet?,Topups,Payments
+qwen2.5:3b-instruct-q4_K_M,I was charged a hidden fee when I paid with card.,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,Why did I get charged for a transfer?,Transfers,Disputes
+qwen2.5:3b-instruct-q4_K_M,How can a payment be declined,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,can I have multiple currencies?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,I can't get my virtual card to work.,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Would I get a Visa or Mastercard?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"I am having trouble doing a transfer. A ""Decline "" message appears after making the transfer.",Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,"If I wanted to change my PIN, how would I do that?",Account,Account
+qwen2.5:3b-instruct-q4_K_M,Who do I talk to for transactions debited twice?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,I tried to get cash out of the ATM but it is taking too long,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,I tried pulling out money at the ATM and it gave me an incorrect amount back.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"I can't see if the transfer I did a couple days ago is in my account yet. I double checked my info before sending, too. Can you check this?",Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,I seem to have lost my card.,Account,Cards
+qwen2.5:3b-instruct-q4_K_M,Can I have money of different country of origin.,Payments,Topups
+qwen2.5:3b-instruct-q4_K_M,I want to activate my new card.,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,How old do my kids need to be to use your service?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,"My top-up was cancelled, could my bank be the problem?",Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,My bill shows the same charge more than once,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,What's your refund policy if I bought an item from you?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"So earlier I went to an ATM and got cash. But when I checked the app, it states that the withdrawal is pending. How can that be when I have the cash on me?",Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,"If I am in China, can I still order a new card and if so, how?",Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,How long will it take for my payment to go through?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,Could you explain why my card payment did not work?,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,How many currencies can I have money in in my account?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,There is unexpected money in my account.,Disputes,Account
+qwen2.5:3b-instruct-q4_K_M,"If I bought something I didn't like, can I get a refund?",Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,"Hello I made a bank account transfer from the UK. The transfer was a couple hours ago, nothing has shown up yet.  Can you check to see if everything okay. Please.",Topups,Transfers
+qwen2.5:3b-instruct-q4_K_M,The seller just told me he didn't get paid. After reviewing my account it did subtract the balance but now it has added it back to my account. I need you to please take care of this promptly.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,How do I active this card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,I was only given $20 when I tried to get $100,Disputes,Payments
+qwen2.5:3b-instruct-q4_K_M,Does it cost anyting to get my own card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"I have an account at another bank, but I want to transfer some of the money to my account here.
+.",Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,Why did I get a $1 extra fee on the statement?,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,How can I change my account details?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,Is my card valid everywhere?,Payments,Cards
+qwen2.5:3b-instruct-q4_K_M,Do you accept credit cards from the US,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,How long does a transfer transaction take?,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,The $1.00 has still not been reverted as indicated in the previous email.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,How can I change my PIN without going to the bank?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,The app says my transfer failed,Transfers,Transfers
+qwen2.5:3b-instruct-q4_K_M,Can I use my bank account to send me more money?,Transfers,Topups
+qwen2.5:3b-instruct-q4_K_M,How come I got blocked for entering wrong pins?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,do i have to wait for a physical card before i get my pin,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Which cards do you support for top up?,Cards,Topups
+qwen2.5:3b-instruct-q4_K_M,"Sort your top up out please! It's been pending since an hour already, can you please make this go through asap I really need the money",Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Where can I order a card?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Why does my top-up get cancelled?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Is there an option to top up with a cheque?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,The app doesn't think it's me.,Account,Account
+qwen2.5:3b-instruct-q4_K_M,"There are a few transaction that I don't recognize, I think someone managed to get my card details and use it.
+",Account,Disputes
+qwen2.5:3b-instruct-q4_K_M,What US credit cards do you accept?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Why was I charged an additional fee when paying with card?,Payments,Disputes
+qwen2.5:3b-instruct-q4_K_M,May I get my salary paid out in a different currency?,Transfers,Payments
+qwen2.5:3b-instruct-q4_K_M,Why was I declined from getting cash?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,why hasn't my virtual card arrived?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,Is exchanging currencies a feature of the app?,Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,Why do I need to verify the top-up?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,Is there a way to order a virtual card on the website?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"I can't figure out how to change GBP to AUD, what do I do?",Payments,Payments
+qwen2.5:3b-instruct-q4_K_M,Where can I get my card PIN?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,"What's go on, where is my new card?",Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,I do not see the card PIN anywhere?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,What can I use to verify my identity?,Account,Account
+qwen2.5:3b-instruct-q4_K_M,"i received my American Express in Apple pay, why is top up not working?",Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,how to i go about getting my virtual card,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,I see a payment on my statement for  a place I didn't make a purchase at.,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,Is there anyway to use a cheque to top up?,Topups,Topups
+qwen2.5:3b-instruct-q4_K_M,How can I prove the source of my funds?,Account,Transfers
+qwen2.5:3b-instruct-q4_K_M,Do I have a card PIN?,Cards,Cards
+qwen2.5:3b-instruct-q4_K_M,When will my refund come through,Disputes,Disputes
+qwen2.5:3b-instruct-q4_K_M,When will the check I deposited post to my account?,Topups,Transfers
+qwen2.5:3b-instruct-q4_K_M,What currencies can my account be in?,Payments,Account
+qwen2.5:3b-instruct-q4_K_M,I think that there was an error in calculating the exchange rate.  I recently withdrew cash and received much less than expected.,Disputes,Payments
+qwen2.5:3b-instruct-q4_K_M,Do I have a Visa card as an option?,Cards,Cards
